@@ -2,7 +2,7 @@ package com.qa.main;
 
 public class Blackjack {
 	
-	public static int BlackJack(int card, int card1) {
+	public int BlackJack(int card, int card1) {
 	if (card > 21 && card1 > 21) {
 		return 0;
 	} else if (card > 21 || card1 > 21) {
